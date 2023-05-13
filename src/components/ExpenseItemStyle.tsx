@@ -58,6 +58,20 @@ const StyleItem = styled.div`
     padding: 0.5rem 1.5rem;
   }
 }
+
+.dataGasto {
+  background-color: #40005d;
+  border: 1px solid white;
+  border-style: outset;
+  border-radius: 12px;
+  color: #bfc1ecaa;
+  font-weight: 450;
+  font-family: cursive;
+   .year {
+    font-weight: 950;
+   }
+}
+
  `; 
 
 export default StyleItem;
