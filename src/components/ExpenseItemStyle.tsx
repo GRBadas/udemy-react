@@ -6,9 +6,9 @@ const StyleItem = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   padding: 0.5rem;
   margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
   background-color: #4b4b4b;
 }
@@ -41,6 +41,16 @@ const StyleItem = styled.div`
   border-radius: 12px;
 }
 
+.expenses {
+  padding: 1rem;
+  background-color: rgb(31,31,31);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.25);
+}
+
 @media (min-width: 580px) {
   .expense-item__description {
     flex-direction: row;
@@ -70,6 +80,16 @@ const StyleItem = styled.div`
    .year {
     font-weight: 950;
    }
+}
+
+.expenses {
+  padding: 1rem;
+  background-color: rgb(31,31,31);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.25);
 }
 
  `; 
